@@ -1,0 +1,13 @@
+write_code:
+    description: >
+      The junior developer is tasked with writing code for the given code'{problem}' without using type hints and without optimizing the code.
+    expected_output: >
+      Code written without type hints and without optimization.
+    agent: junior_developer
+
+review_code:
+  description: >
+    The senior developer is tasked with reviewing the code written by the junior developer, optimizing it, and adding type hints in this cod '{problem}'.
+  expected_output: >
+      High-quality, optimized, and maintainable code with type hints.
+  agent: senior_developer
