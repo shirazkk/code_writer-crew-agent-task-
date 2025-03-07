@@ -16,7 +16,6 @@ dependencies = [
 kickoff = "project1.main:kickoff"
 plot = "project1.main:plot"
 code_agent = "project1.main1:kickoff"
-run_knowledge = "project1.main2:doc_knowledge"
 
 [build-system]
 requires = [

@@ -10,7 +10,7 @@ class CodeFlow(Flow):
                 "problem": "write a python code which add two numbers."
             }
         )
-        return result.raw
+        return result
 
 def kickoff():
     result = CodeFlow()
