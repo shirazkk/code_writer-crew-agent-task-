@@ -14,5 +14,4 @@ class CodeFlow(Flow):
 
 def kickoff():
     result = CodeFlow()
-    final_result = result.kickoff()
-    print(final_result)
+    result.kickoff()
